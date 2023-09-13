@@ -31,12 +31,31 @@ li {
   list-style: none;
 }
 
+/* Icons */
+
+.social_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.social_icons a {
+  color: #9B9C9D;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.social_icons a:hover {
+  color: #DADADB;
+}
+
 /* Navbar */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   background-color: #1D1E20;
 }
 
@@ -89,22 +108,6 @@ hr {
   color: #9B9C9D;
 }
 
-.footer-container .social_icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0 1rem;
-}
-
-.footer-container .social_icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.footer-container .social_icons a:hover {
-  color: #DADADB;
-}
 
 /* Hero */
 
@@ -115,6 +118,10 @@ hr {
   align-items: center;
   flex-direction: column;
   padding: 2rem 0;
+}
+
+.hero-container h1 {
+  margin: 1rem
 }
 
 .hero-container .profile-img {
@@ -129,23 +136,6 @@ hr {
   text-align: center;
   margin: 1rem 0;
   width: 80%;
-}
-
-.hero-container .social_icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-}
-
-.hero-container .social_icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.hero-container .social_icons a:hover {
-  color: #DADADB;
 }
 
 @media screen and (max-width: 768px) {
@@ -164,23 +154,6 @@ hr {
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 1rem;
-}
-
-.hero-container .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-}
-
-.hero-container .social-icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.hero-container .social-icons a:hover {
-  color: #DADADB;
 }
 
 /* About */
@@ -384,7 +357,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 

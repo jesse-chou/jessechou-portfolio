@@ -10,13 +10,16 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Hey, I'm Jesse 👋</h1>
         <p>
-          I'm an aspiring software engineer based in New York City. I'm currently working for Barclays as a Technology Analyst. I graduated in December 2022 from The University of Texas McCombs School of Business and have previously worked for Scholastic, NBCUniversal, and Yext.
+          I'm an aspiring software engineer based in New York City currently working for Barclays as a Technology Analyst.
         </p>
         <p>
-          I'm passionate about leveraging technology to tackle real world problems. In my free time I enjoy working out, skydiving, and traveling. Feel free to get in touch below!
+          I graduated from The University of Texas at Austin - McCombs School of Business with a degree in Management Information Systems and have previously worked for Scholastic, NBCUniversal, and Yext.
         </p>
-        <Icons/>
+        <p>
+          I'm passionate about leveraging technology to solve real world problems. In my free time I enjoy working out, skydiving, and traveling. Feel free to get in touch below!
+        </p>
       </div>
+        <Icons/>
     </div>
   )
 }
