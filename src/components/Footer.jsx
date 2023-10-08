@@ -8,7 +8,7 @@ const Footer = () => {
       <hr/>
       <div className="footer-container">
         <p>
-          © {new Date().getFullYear()} Jesse Chou&apos;s Portfolio
+          © {new Date().getFullYear()} Jesse Chou's Portfolio
         </p>
         <Icons/>
       </div>
