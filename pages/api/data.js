@@ -3,10 +3,10 @@
 export const projectData = [
   {
     id: 1,
-    title: 'Todo List App',
+    title: 'NYC Coworking Space Tracker',
     description:
-      'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-    // gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+      'A simple webapp made with React, Node.js, Express, and MongoDB. It helps users keep track of NYC coworking location with details such as name, address, hours, and other key details.',
+    gitHubLink: 'https://github.com/jesse-chou/coworking-tracking-app',
   },
 ];
 
